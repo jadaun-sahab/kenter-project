@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  scroll-behavior: smooth;
+}
+
+/* ------- navbar starts ------- */
+
+.navbar {
+  background-color: rgb(46, 45, 61);
+  height: 100%;
+  display: flex;
+}
+.left {
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  left: 12rem;
+  top: 2rem;
+  border: 3.5px solid rgb(205, 154, 111);
+  font-weight: bold;
+  padding: 0.6rem 0.9rem;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right {
+  z-index: 1;
+  position: absolute;
+  right: 10rem;
+  top: 2rem;
+}
+.right i {
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  top: -4rem;
+  font-size: 3rem;
+  right: 0;
+}
+.right ul {
+  position: relative;
+  right: 2rem;
+  list-style: none;
+}
+.right ul li a {
+  color: #c6b29b;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  padding: 0.4rem;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+.right ul li a:hover {
+  cursor: pointer;
+  color: #c1915b;
+  text-shadow: 1px 1px 90px white;
+  font-size: 1.5rem;
+  transform: translateY(-1rem);
+  padding: 0.8rem 0.4rem;
+}
+.right ul ul {
+  display: none;
+}
+.right ul li:hover > ul {
+  display: block;
+}
+/* ------- navbar ends ------- */
+
+/* ------- home starts ---- */
+
+.home {
+  height: 700px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home::before {
+  position: absolute;
+  display: block;
+  height: 913px;
+  width: 100%;
+  opacity: 1;
+  content: "";
+  z-index: -1;
+  background: url("img/bg.png") no-repeat center center/cover;
+}
+
+.home h1 {
+  position: relative;
+  top: 14rem;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 3rem;
+}
+.home h1 span {
+  color: #c69c6d;
+}
+.home p {
+  padding: 0 0.5rem;
+  position: relative;
+  top: 14rem;
+  margin: 1.4rem auto;
+  color: white;
+}
+.btn1 {
+  position: relative;
+  top: 13rem;
+  margin: 1.4rem auto;
+  color: white;
+  background-color: rgba(43, 43, 98, 0);
+  border: 2px solid #c69c6d;
+  border-radius: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+}
+.btn1:hover {
+  box-shadow: inset 150px 0 0 0 #c69c6d;
+  color: black;
+}
+
+/* ------- home ends ---- */
+
+/* ------- section starts ---- */
+
+#section {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  height: 320px;
+}
+#section::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.box {
+  font-weight: 10;
+  font-family: "Poppins", sans-serif;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.box h2 {
+  padding: 2rem 0;
+}
+.box p {
+  padding: 0 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.box2 {
+  background-color: rgb(20, 20, 30);
+}
+.box4 {
+  background-color: rgb(20, 20, 30);
+}
+.box .fa-solid {
+  color: white;
+}
+i {
+  padding: 4rem 0 0 0;
+  background: transparent;
+  background-color: rgba(255, 0, 0, 0);
+  font-size: 4rem;
+}
+
+/* ------- section ends ---- */
+
+/* <!-- section2 starts --> */
+
+.section2 {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  height: 300px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section2::before {
+  height: 300px;
+}
+hr {
+  font-size: 2px;
+  width: 3rem;
+  color: orange;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section2 {
+  height: 100%;
+}
+.section2 h1 {
+  font-size: 1.6rem;
+  margin: 5rem 0 1rem 0;
+}
+.section2 h1 span {
+  color: #c69c6d;
+}
+.section2 p {
+  padding: 0 0.5rem;
+  margin: 1rem 0 3rem 0;
+  color: grey;
+}
+.nav ul {
+  margin-bottom: 3rem;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.nav ul li a {
+  text-decoration: none;
+  padding: 0 1rem;
+  color: grey;
+}
+.nav ul li a:hover {
+  color: #c1915b;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.container img {
+  transition: all 0.3s;
+  width: 260px;
+}
+.container img:hover {
+  width: 270px;
+  cursor: pointer;
+  transform: translateY(-1rem);
+}
+.boxs {
+  margin: 0 1rem;
+}
+.boxs p {
+  font-size: 1.3rem;
+  color: #c69c6d;
+}
+.boxs p span {
+  color: black;
+}
+
+/* <!-- section2 ends --> */
+
+.demo {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(16, 16, 16);
+  height: 300px;
+}
+.demo h1 {
+  font-size: 1.7rem;
+  position: relative;
+  top: 6rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn3 {
+  position: relative;
+  top: 9rem;
+  color: white;
+  background-color: rgb(29, 186, 29);
+  padding: 0.9rem 2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  border-radius: 3rem;
+  width: 15rem;
+  transition: all 0.3s;
+}
+.btn3:hover {
+  background-color: rgb(30, 198, 30);
+}
+
+/* <!-------- demo ends --------> */
+
+/* <!--------  about starts --------> */
+
+.about {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: rgb(28, 28, 28);
+  height: 100%;
+}
+.about h1 {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.about ul li {
+  color: #c69c6d;
+  list-style: circle;
+}
+.about ul li a {
+  line-height: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.last {
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100px;
+  font-weight: bold;
+  padding: 0.7rem 0.5rem;
+  color: white;
+  border: 2px solid white;
+}
+.part1 {
+  margin: 0 auto;
+  flex-basis: 16%;
+}
+.part1 p {
+  line-height: 1.8rem;
+  max-width: 240px;
+  color: white;
+}
+.part2 {
+  color: white;
+  flex-basis: 22%;
+}
+.part3 {
+  color: white;
+  flex-basis: 15%;
+}
+.part4 {
+  color: white;
+  flex-basis: 29%;
+}
+.part4 ol {
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+.about hr {
+  display: none;
+  width: 80%;
+}
+
+/* <!-------  about ends --------> */
+
+/* <!-------- footer starts --------> */
+
+.footer {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.footer p {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+  padding: 1rem 0;
+  color: white;
+}
+
+/* <!-------- footer ends --------> */
