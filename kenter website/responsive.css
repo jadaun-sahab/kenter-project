@@ -1,0 +1,123 @@
+@media (max-width: 1300px) {
+  .left{
+    left: 6rem;
+  }
+  .right{
+    right: 6rem;
+  }
+  #section {
+    height: 100%;
+    display: block;
+  }
+  .box {
+    padding-bottom: 3rem;
+    width: 100%;
+  }
+  .container {
+    display: block;
+  }
+}
+@media (max-width: 1150px){
+  .left{
+    left: 3.5rem;
+  }
+  .right{
+    right: 3.5rem;
+  }
+}
+@media (max-width: 1050px) {
+  .left{
+    left: 1rem;
+  }
+  .right{
+    right: 2rem;
+  }
+  .home h1 {
+    font-size: 2.3rem;
+  }
+  
+  .about {
+    display: block;
+    text-align: center;
+  }
+  .last {
+    margin: 1rem auto;
+    display: block;
+    width: 100px;
+  }
+  .part1 p {
+    display: block;
+    margin: 1rem auto;
+    max-width: 80%;
+  }
+  .about hr {
+    margin: 2rem auto;
+    display: block;
+    width: 50%;
+    padding: 0.3px 0;
+    background-color: #bd8442;
+  }
+  .part2 {
+    margin: 2rem auto 1rem auto;
+  }
+}
+@media (max-width: 900px) {
+  
+  .right ul {
+    transition: all 4s;
+    margin-top: 4em; 
+    background-color: rgba(0, 0, 0, 0.900);
+    width: 100%;
+    display: block;
+    padding: 0 3rem;
+  }
+  .right ul li a {
+    color: #c6b29b;
+  }
+  .right ul li a:hover {
+    cursor: pointer;
+    color: #c1915b;
+    font-size: 1.5rem;
+  }
+  
+}
+@media (max-width: 700px) {
+  
+  .demo h1 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+  .btn3 {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    width: 13rem;
+  }
+  .nav ul {
+    display: inline-block;
+  }
+  .nav ul li {
+    display: inline-block;
+  }
+}
+@media (max-width: 450px) {
+  
+  .container img {
+    transition: all 0.3s;
+    max-width: 210px;
+  }
+  .demo h1 {
+    font-size: 1.3rem;
+  }
+  .btn3 {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    width: 11rem;
+  }
+}
+@media (max-width: 300px) {
+  .container img {
+    transition: all 0.3s;
+    max-width: 180px;
+  }
+  
+}
